@@ -17,4 +17,4 @@ EXPOSE 5173
 
 #Se ejecuta la app; -- --host funciona para que el servidor escuche con la interfaz de red  0.0.0.0
 # para que se acepten conexiones desde cualquier ip que llegue con puerto especificado en EXPOSE.
-CMD [ "npm", "run", "dev", "--", "--host" ]
+    CMD [ "npm", "run", "dev", "--", "--host" ]
